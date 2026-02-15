@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  customer-statement-processor:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: customer-statement-processor
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_PROFILES_ACTIVE=prod
+      - JAVA_OPTS=-Xmx512m -Xms256m
+    volumes:
+      # Mount logs directory for persistent logs
+      - ./logs:/app/logs
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:8080/actuator/health"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+      start_period: 40s
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

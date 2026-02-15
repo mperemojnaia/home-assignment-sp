@@ -1,0 +1,1602 @@
+[
+  {
+    "reference": 100062,
+    "accountNumber": "NL19RABO0555666777",
+    "description": "Rent Payment",
+    "startBalance": 1566.25,
+    "mutation": 55.53,
+    "endBalance": 1621.78
+  },
+  {
+    "reference": 100063,
+    "accountNumber": "NL43AEGO0773393871",
+    "description": "Parking Fee Sarah Bakker",
+    "startBalance": 8129.42,
+    "mutation": 48.95,
+    "endBalance": 8178.37
+  },
+  {
+    "reference": 100015,
+    "accountNumber": "NL27SNSB0917829871",
+    "description": "Rent Payment",
+    "startBalance": 2760.86,
+    "mutation": -175.47,
+    "endBalance": 2585.39
+  },
+  {
+    "reference": 100070,
+    "accountNumber": "NL93ABNA0585619023",
+    "description": "Book Store Purchase",
+    "startBalance": 9832.39,
+    "mutation": -138.24,
+    "endBalance": 9694.15
+  },
+  {
+    "reference": 100031,
+    "accountNumber": "NL93ABNA0585619023",
+    "description": "Movie Theater Emma Smit",
+    "startBalance": 726.42,
+    "mutation": -248.91,
+    "endBalance": 477.51
+  },
+  {
+    "reference": 100093,
+    "accountNumber": "NL19RABO0555666777",
+    "description": "Book Store Purchase Sophie Bakker",
+    "startBalance": 1243.03,
+    "mutation": -343.02,
+    "endBalance": 900.01
+  },
+  {
+    "reference": 100011,
+    "accountNumber": "NL91RABO0315273637",
+    "description": "Groceries Albert Heijn",
+    "startBalance": 8661.31,
+    "mutation": -351.54,
+    "endBalance": 8382.3
+  },
+  {
+    "reference": 100147,
+    "accountNumber": "NL69ABNA0433647324",
+    "description": "Internet Subscription",
+    "startBalance": 6088.72,
+    "mutation": -353.57,
+    "endBalance": 5735.15
+  },
+  {
+    "reference": 100170,
+    "accountNumber": "NL74ABNA0248990274",
+    "description": "Online Shopping",
+    "startBalance": 2210.71,
+    "mutation": 418.02,
+    "endBalance": 2628.73
+  },
+  {
+    "reference": 100104,
+    "accountNumber": "NL74ABNA0248990274",
+    "description": "ATM Withdrawal",
+    "startBalance": 1515.67,
+    "mutation": -287.87,
+    "endBalance": 1227.8
+  },
+  {
+    "reference": 100183,
+    "accountNumber": "NL38SNSB0111222333",
+    "description": "Gas Station Shell",
+    "startBalance": 1969.43,
+    "mutation": 160.29,
+    "endBalance": 2129.72
+  },
+  {
+    "reference": 100024,
+    "accountNumber": "NL38SNSB0111222333",
+    "description": "Pharmacy Medication",
+    "startBalance": 1346.41,
+    "mutation": -455.46,
+    "endBalance": 890.95
+  },
+  {
+    "reference": 100097,
+    "accountNumber": "NL27SNSB0917829871",
+    "description": "Gym Membership John Smit",
+    "startBalance": 7984.2,
+    "mutation": 496.92,
+    "endBalance": 8493.86
+  },
+  {
+    "reference": 100034,
+    "accountNumber": "NL56INGB0123456789",
+    "description": "Insurance Premium",
+    "startBalance": 4612.49,
+    "mutation": 79.09,
+    "endBalance": 4691.58
+  },
+  {
+    "reference": 100118,
+    "accountNumber": "NL19RABO0555666777",
+    "description": "ATM Withdrawal",
+    "startBalance": 9435.8,
+    "mutation": 134.55,
+    "endBalance": 9570.35
+  },
+  {
+    "reference": 100050,
+    "accountNumber": "NL91RABO0315273637",
+    "description": "Book Store Purchase",
+    "startBalance": 8408.13,
+    "mutation": -443.36,
+    "endBalance": 7964.77
+  },
+  {
+    "reference": 100029,
+    "accountNumber": "NL82ABNA0987654321",
+    "description": "Online Shopping Peter van Dijk",
+    "startBalance": 1708.02,
+    "mutation": 209.39,
+    "endBalance": 1917.41
+  },
+  {
+    "reference": 100153,
+    "accountNumber": "NL27SNSB0917829871",
+    "description": "Gym Membership",
+    "startBalance": 3739.64,
+    "mutation": 226.38,
+    "endBalance": 3966.02
+  },
+  {
+    "reference": 100035,
+    "accountNumber": "NL82ABNA0987654321",
+    "description": "Clothing Store H&M",
+    "startBalance": 4906.73,
+    "mutation": 106.68,
+    "endBalance": 5013.41
+  },
+  {
+    "reference": 100169,
+    "accountNumber": "NL82ABNA0987654321",
+    "description": "Clothing Store H&M",
+    "startBalance": 3114.34,
+    "mutation": -153.38,
+    "endBalance": 2960.96
+  },
+  {
+    "reference": 100041,
+    "accountNumber": "NL82ABNA0987654321",
+    "description": "Bank Transfer",
+    "startBalance": 7659.16,
+    "mutation": -77.17,
+    "endBalance": 7581.99
+  },
+  {
+    "reference": 100003,
+    "accountNumber": "NL69ABNA0433647324",
+    "description": "Rent Payment",
+    "startBalance": 6678.11,
+    "mutation": -97.27,
+    "endBalance": 6580.84
+  },
+  {
+    "reference": 100064,
+    "accountNumber": "NL38SNSB0111222333",
+    "description": "Public Transport",
+    "startBalance": 4086.71,
+    "mutation": -69.22,
+    "endBalance": 4017.49
+  },
+  {
+    "reference": 100117,
+    "accountNumber": "NL19RABO0555666777",
+    "description": "Mobile Phone Bill",
+    "startBalance": 8810.38,
+    "mutation": 402.31,
+    "endBalance": 9212.69
+  },
+  {
+    "reference": 100087,
+    "accountNumber": "NL19RABO0555666777",
+    "description": "Parking Fee",
+    "startBalance": 3708.39,
+    "mutation": 265.9,
+    "endBalance": 3974.29
+  },
+  {
+    "reference": 100156,
+    "accountNumber": "NL38SNSB0111222333",
+    "description": "Salary Payment",
+    "startBalance": 7970.46,
+    "mutation": -82.36,
+    "endBalance": 7888.1
+  },
+  {
+    "reference": 100048,
+    "accountNumber": "NL69ABNA0433647324",
+    "description": "Electricity Bill",
+    "startBalance": 3992.83,
+    "mutation": -255.91,
+    "endBalance": 3736.92
+  },
+  {
+    "reference": 100017,
+    "accountNumber": "NL69ABNA0433647324",
+    "description": "Clothing Store H&M",
+    "startBalance": 8414.65,
+    "mutation": 411.3,
+    "endBalance": 8825.95
+  },
+  {
+    "reference": 100150,
+    "accountNumber": "NL27SNSB0917829871",
+    "description": "Book Store Purchase",
+    "startBalance": 4112.31,
+    "mutation": -356.63,
+    "endBalance": 3755.68
+  },
+  {
+    "reference": 100076,
+    "accountNumber": "NL91RABO0315273637",
+    "description": "Clothing Store H&M",
+    "startBalance": 6765.55,
+    "mutation": 262.44,
+    "endBalance": 7027.99
+  },
+  {
+    "reference": 100144,
+    "accountNumber": "NL19RABO0555666777",
+    "description": "Gas Station Shell Anna Jansen",
+    "startBalance": 8595.96,
+    "mutation": 14.17,
+    "endBalance": 8610.13
+  },
+  {
+    "reference": 100188,
+    "accountNumber": "NL69ABNA0433647324",
+    "description": "Gas Station Shell",
+    "startBalance": 3998.82,
+    "mutation": -236.24,
+    "endBalance": 3762.58
+  },
+  {
+    "reference": 100005,
+    "accountNumber": "NL69ABNA0433647324",
+    "description": "Salary Payment",
+    "startBalance": 768.03,
+    "mutation": -37.13,
+    "endBalance": 730.9
+  },
+  {
+    "reference": 100091,
+    "accountNumber": "NL43AEGO0773393871",
+    "description": "Book Store Purchase",
+    "startBalance": 3100.17,
+    "mutation": 495.75,
+    "endBalance": 3595.92
+  },
+  {
+    "reference": 100106,
+    "accountNumber": "NL19RABO0555666777",
+    "description": "Coffee Shop Maria Bakker",
+    "startBalance": 764.41,
+    "mutation": 383.83,
+    "endBalance": 1148.24
+  },
+  {
+    "reference": 100036,
+    "accountNumber": "NL56INGB0123456789",
+    "description": "Insurance Premium",
+    "startBalance": 5235.47,
+    "mutation": -170.25,
+    "endBalance": 5065.22
+  },
+  {
+    "reference": 100065,
+    "accountNumber": "NL69ABNA0433647324",
+    "description": "Parking Fee",
+    "startBalance": 6549.97,
+    "mutation": 189.76,
+    "endBalance": 6739.73
+  },
+  {
+    "reference": 100089,
+    "accountNumber": "NL82ABNA0987654321",
+    "description": "ATM Withdrawal",
+    "startBalance": 1582.89,
+    "mutation": 172.54,
+    "endBalance": 1755.43
+  },
+  {
+    "reference": 100141,
+    "accountNumber": "NL69ABNA0433647324",
+    "description": "Mobile Phone Bill",
+    "startBalance": 2737.41,
+    "mutation": 442.15,
+    "endBalance": 3179.56
+  },
+  {
+    "reference": 100143,
+    "accountNumber": "NL82ABNA0987654321",
+    "description": "Book Store Purchase",
+    "startBalance": 6861.6,
+    "mutation": -393.52,
+    "endBalance": 6468.08
+  },
+  {
+    "reference": 100073,
+    "accountNumber": "NL82ABNA0987654321",
+    "description": "Pharmacy Medication",
+    "startBalance": 7882.96,
+    "mutation": -131.46,
+    "endBalance": 7751.5
+  },
+  {
+    "reference": 100168,
+    "accountNumber": "NL19RABO0555666777",
+    "description": "Bank Transfer Maria Meijer",
+    "startBalance": 4393.44,
+    "mutation": -427.19,
+    "endBalance": 3966.25
+  },
+  {
+    "reference": 100020,
+    "accountNumber": "NL19RABO0555666777",
+    "description": "Electricity Bill",
+    "startBalance": 1063.84,
+    "mutation": 346.08,
+    "endBalance": 1409.92
+  },
+  {
+    "reference": 100095,
+    "accountNumber": "NL27SNSB0917829871",
+    "description": "Online Shopping Maria Mulder",
+    "startBalance": 5212.39,
+    "mutation": -213.39,
+    "endBalance": 4999.0
+  },
+  {
+    "reference": 100189,
+    "accountNumber": "NL56INGB0123456789",
+    "description": "Gas Station Shell",
+    "startBalance": 6510.24,
+    "mutation": 363.27,
+    "endBalance": 6873.51
+  },
+  {
+    "reference": 100071,
+    "accountNumber": "NL19RABO0555666777",
+    "description": "Movie Theater",
+    "startBalance": 6946.95,
+    "mutation": 223.97,
+    "endBalance": 7221.57
+  },
+  {
+    "reference": 100115,
+    "accountNumber": "NL82ABNA0987654321",
+    "description": "Coffee Shop",
+    "startBalance": 3933.28,
+    "mutation": 440.04,
+    "endBalance": 4373.32
+  },
+  {
+    "reference": 100085,
+    "accountNumber": "NL43AEGO0773393871",
+    "description": "Online Shopping Michael de Groot",
+    "startBalance": 8291.29,
+    "mutation": -209.85,
+    "endBalance": 8081.44
+  },
+  {
+    "reference": 100154,
+    "accountNumber": "NL82ABNA0987654321",
+    "description": "Bank Transfer",
+    "startBalance": 5974.69,
+    "mutation": 354.85,
+    "endBalance": 6329.54
+  },
+  {
+    "reference": 100003,
+    "accountNumber": "NL27SNSB0917829871",
+    "description": "Coffee Shop",
+    "startBalance": 6652.53,
+    "mutation": -230.07,
+    "endBalance": 6422.46
+  },
+  {
+    "reference": 100082,
+    "accountNumber": "NL38SNSB0111222333",
+    "description": "Bank Transfer",
+    "startBalance": 2708.52,
+    "mutation": -67.76,
+    "endBalance": 2640.76
+  },
+  {
+    "reference": 100178,
+    "accountNumber": "NL69ABNA0433647324",
+    "description": "Gym Membership",
+    "startBalance": 2965.83,
+    "mutation": -46.4,
+    "endBalance": 2919.43
+  },
+  {
+    "reference": 100079,
+    "accountNumber": "NL56INGB0123456789",
+    "description": "Public Transport",
+    "startBalance": 2630.41,
+    "mutation": 0.35,
+    "endBalance": 2630.76
+  },
+  {
+    "reference": 100066,
+    "accountNumber": "NL82ABNA0987654321",
+    "description": "Pharmacy Medication Anna Mulder",
+    "startBalance": 9860.91,
+    "mutation": -320.71,
+    "endBalance": 9540.2
+  },
+  {
+    "reference": 100047,
+    "accountNumber": "NL69ABNA0433647324",
+    "description": "Parking Fee",
+    "startBalance": 176.01,
+    "mutation": -278.55,
+    "endBalance": -102.54
+  },
+  {
+    "reference": 100099,
+    "accountNumber": "NL69ABNA0433647324",
+    "description": "Book Store Purchase",
+    "startBalance": 6950.75,
+    "mutation": -220.63,
+    "endBalance": 6730.12
+  },
+  {
+    "reference": 100077,
+    "accountNumber": "NL69ABNA0433647324",
+    "description": "Online Shopping",
+    "startBalance": 2885.75,
+    "mutation": 240.4,
+    "endBalance": 3126.15
+  },
+  {
+    "reference": 100002,
+    "accountNumber": "NL93ABNA0585619023",
+    "description": "Groceries Albert Heijn",
+    "startBalance": 5242.89,
+    "mutation": -375.16,
+    "endBalance": 4867.73
+  },
+  {
+    "reference": 100162,
+    "accountNumber": "NL82ABNA0987654321",
+    "description": "Parking Fee",
+    "startBalance": 2294.48,
+    "mutation": -233.38,
+    "endBalance": 2061.1
+  },
+  {
+    "reference": 100108,
+    "accountNumber": "NL91RABO0315273637",
+    "description": "Insurance Premium John de Groot",
+    "startBalance": 1722.2,
+    "mutation": 185.24,
+    "endBalance": 1907.44
+  },
+  {
+    "reference": 100006,
+    "accountNumber": "NL38SNSB0111222333",
+    "description": "ATM Withdrawal",
+    "startBalance": 2063.31,
+    "mutation": 238.44,
+    "endBalance": 2301.75
+  },
+  {
+    "reference": 100083,
+    "accountNumber": "NL19RABO0555666777",
+    "description": "Coffee Shop David Visser",
+    "startBalance": 8379.92,
+    "mutation": -370.32,
+    "endBalance": 8009.6
+  },
+  {
+    "reference": 100023,
+    "accountNumber": "NL93ABNA0585619023",
+    "description": "Gym Membership",
+    "startBalance": 242.74,
+    "mutation": 320.62,
+    "endBalance": 563.36
+  },
+  {
+    "reference": 100008,
+    "accountNumber": "NL43AEGO0773393871",
+    "description": "Salary Payment Peter Smit",
+    "startBalance": 3491.43,
+    "mutation": 295.32,
+    "endBalance": 3786.75
+  },
+  {
+    "reference": 100157,
+    "accountNumber": "NL27SNSB0917829871",
+    "description": "Clothing Store H&M Peter de Boer",
+    "startBalance": 8545.7,
+    "mutation": -383.5,
+    "endBalance": 8181.49
+  },
+  {
+    "reference": 100175,
+    "accountNumber": "NL74ABNA0248990274",
+    "description": "Coffee Shop Sophie Bakker",
+    "startBalance": 3074.69,
+    "mutation": -433.95,
+    "endBalance": 2640.74
+  },
+  {
+    "reference": 100067,
+    "accountNumber": "NL91RABO0315273637",
+    "description": "Gym Membership",
+    "startBalance": 3485.44,
+    "mutation": -263.67,
+    "endBalance": 3313.63
+  },
+  {
+    "reference": 100022,
+    "accountNumber": "NL19RABO0555666777",
+    "description": "Online Shopping",
+    "startBalance": 5525.97,
+    "mutation": -446.45,
+    "endBalance": 5106.9
+  },
+  {
+    "reference": 100172,
+    "accountNumber": "NL93ABNA0585619023",
+    "description": "Bank Transfer Anna Smit",
+    "startBalance": 5256.72,
+    "mutation": 430.03,
+    "endBalance": 5686.75
+  },
+  {
+    "reference": 100167,
+    "accountNumber": "NL93ABNA0585619023",
+    "description": "Groceries Albert Heijn Emma Smit",
+    "startBalance": 8582.13,
+    "mutation": -417.3,
+    "endBalance": 8164.83
+  },
+  {
+    "reference": 100088,
+    "accountNumber": "NL69ABNA0433647324",
+    "description": "Salary Payment Sarah de Boer",
+    "startBalance": 8733.82,
+    "mutation": 284.84,
+    "endBalance": 9018.66
+  },
+  {
+    "reference": 100182,
+    "accountNumber": "NL27SNSB0917829871",
+    "description": "Book Store Purchase Anna Visser",
+    "startBalance": 8112.92,
+    "mutation": -30.77,
+    "endBalance": 8082.15
+  },
+  {
+    "reference": 100072,
+    "accountNumber": "NL69ABNA0433647324",
+    "description": "Gas Station Shell",
+    "startBalance": 7230.63,
+    "mutation": 90.36,
+    "endBalance": 7320.99
+  },
+  {
+    "reference": 100092,
+    "accountNumber": "NL27SNSB0917829871",
+    "description": "Public Transport",
+    "startBalance": 3967.15,
+    "mutation": 346.58,
+    "endBalance": 4313.73
+  },
+  {
+    "reference": 100112,
+    "accountNumber": "NL69ABNA0433647324",
+    "description": "ATM Withdrawal Jan de Boer",
+    "startBalance": 1555.18,
+    "mutation": 484.81,
+    "endBalance": 2039.99
+  },
+  {
+    "reference": 100141,
+    "accountNumber": "NL91RABO0315273637",
+    "description": "Insurance Premium",
+    "startBalance": 5309.07,
+    "mutation": 134.17,
+    "endBalance": 5443.24
+  },
+  {
+    "reference": 100051,
+    "accountNumber": "NL27SNSB0917829871",
+    "description": "Online Shopping",
+    "startBalance": 8455.64,
+    "mutation": -231.5,
+    "endBalance": 8224.14
+  },
+  {
+    "reference": 100000,
+    "accountNumber": "NL74ABNA0248990274",
+    "description": "Gas Station Shell",
+    "startBalance": 9354.85,
+    "mutation": 36.38,
+    "endBalance": 9391.23
+  },
+  {
+    "reference": 100075,
+    "accountNumber": "NL93ABNA0585619023",
+    "description": "Mobile Phone Bill",
+    "startBalance": 367.08,
+    "mutation": 204.49,
+    "endBalance": 571.57
+  },
+  {
+    "reference": 100100,
+    "accountNumber": "NL93ABNA0585619023",
+    "description": "Clothing Store H&M Sophie Jansen",
+    "startBalance": 1794.91,
+    "mutation": 276.36,
+    "endBalance": 2071.27
+  },
+  {
+    "reference": 100138,
+    "accountNumber": "NL69ABNA0433647324",
+    "description": "Parking Fee Sophie de Vries",
+    "startBalance": 3593.36,
+    "mutation": -228.13,
+    "endBalance": 3365.23
+  },
+  {
+    "reference": 100105,
+    "accountNumber": "NL93ABNA0585619023",
+    "description": "Gym Membership",
+    "startBalance": 4328.38,
+    "mutation": -199.7,
+    "endBalance": 4128.68
+  },
+  {
+    "reference": 100056,
+    "accountNumber": "NL56INGB0123456789",
+    "description": "Groceries Albert Heijn",
+    "startBalance": 8090.83,
+    "mutation": 197.97,
+    "endBalance": 8288.8
+  },
+  {
+    "reference": 100039,
+    "accountNumber": "NL93ABNA0585619023",
+    "description": "ATM Withdrawal Anna de Vries",
+    "startBalance": 4235.54,
+    "mutation": -420.0,
+    "endBalance": 3815.54
+  },
+  {
+    "reference": 100055,
+    "accountNumber": "NL82ABNA0987654321",
+    "description": "Public Transport",
+    "startBalance": 9304.01,
+    "mutation": 356.07,
+    "endBalance": 9660.08
+  },
+  {
+    "reference": 100139,
+    "accountNumber": "NL69ABNA0433647324",
+    "description": "Gym Membership",
+    "startBalance": 377.78,
+    "mutation": 390.89,
+    "endBalance": 768.67
+  },
+  {
+    "reference": 100095,
+    "accountNumber": "NL27SNSB0917829871",
+    "description": "Gas Station Shell Emma Smit",
+    "startBalance": 5046.39,
+    "mutation": -225.45,
+    "endBalance": 4820.94
+  },
+  {
+    "reference": 100010,
+    "accountNumber": "NL27SNSB0917829871",
+    "description": "Parking Fee",
+    "startBalance": 4288.54,
+    "mutation": 76.85,
+    "endBalance": 4365.39
+  },
+  {
+    "reference": 100096,
+    "accountNumber": "NL43AEGO0773393871",
+    "description": "Groceries Albert Heijn Maria Meijer",
+    "startBalance": 4488.27,
+    "mutation": -404.93,
+    "endBalance": 4083.34
+  },
+  {
+    "reference": 100046,
+    "accountNumber": "NL69ABNA0433647324",
+    "description": "Rent Payment",
+    "startBalance": 9807.85,
+    "mutation": -485.37,
+    "endBalance": 9322.48
+  },
+  {
+    "reference": 100158,
+    "accountNumber": "NL19RABO0555666777",
+    "description": "Coffee Shop Michael de Groot",
+    "startBalance": 3593.12,
+    "mutation": -492.35,
+    "endBalance": 3100.77
+  },
+  {
+    "reference": 100053,
+    "accountNumber": "NL91RABO0315273637",
+    "description": "Mobile Phone Bill",
+    "startBalance": 7535.07,
+    "mutation": 454.5,
+    "endBalance": 7989.57
+  },
+  {
+    "reference": 100103,
+    "accountNumber": "NL38SNSB0111222333",
+    "description": "Book Store Purchase",
+    "startBalance": 8047.87,
+    "mutation": -451.51,
+    "endBalance": 7596.36
+  },
+  {
+    "reference": 100069,
+    "accountNumber": "NL82ABNA0987654321",
+    "description": "Parking Fee",
+    "startBalance": 5408.17,
+    "mutation": 19.63,
+    "endBalance": 5427.8
+  },
+  {
+    "reference": 100159,
+    "accountNumber": "NL91RABO0315273637",
+    "description": "Bank Transfer Michael Mulder",
+    "startBalance": 747.7,
+    "mutation": 428.48,
+    "endBalance": 1176.18
+  },
+  {
+    "reference": 100140,
+    "accountNumber": "NL56INGB0123456789",
+    "description": "Gym Membership",
+    "startBalance": 862.4,
+    "mutation": -427.22,
+    "endBalance": 435.18
+  },
+  {
+    "reference": 100098,
+    "accountNumber": "NL74ABNA0248990274",
+    "description": "Gym Membership",
+    "startBalance": 5928.5,
+    "mutation": 278.9,
+    "endBalance": 6207.4
+  },
+  {
+    "reference": 100038,
+    "accountNumber": "NL69ABNA0433647324",
+    "description": "Restaurant De Librije",
+    "startBalance": 2026.73,
+    "mutation": -498.76,
+    "endBalance": 1527.97
+  },
+  {
+    "reference": 100181,
+    "accountNumber": "NL38SNSB0111222333",
+    "description": "Movie Theater",
+    "startBalance": 7509.77,
+    "mutation": -423.17,
+    "endBalance": 7086.6
+  },
+  {
+    "reference": 100161,
+    "accountNumber": "NL19RABO0555666777",
+    "description": "Groceries Albert Heijn Michael Visser",
+    "startBalance": 7104.75,
+    "mutation": -125.46,
+    "endBalance": 6979.29
+  },
+  {
+    "reference": 100086,
+    "accountNumber": "NL19RABO0555666777",
+    "description": "Pharmacy Medication",
+    "startBalance": 9776.26,
+    "mutation": -496.41,
+    "endBalance": 9279.85
+  },
+  {
+    "reference": 100145,
+    "accountNumber": "NL43AEGO0773393871",
+    "description": "Book Store Purchase Sophie Visser",
+    "startBalance": 5532.18,
+    "mutation": 24.76,
+    "endBalance": 5556.94
+  },
+  {
+    "reference": 100113,
+    "accountNumber": "NL91RABO0315273637",
+    "description": "Clothing Store H&M",
+    "startBalance": 4509.0,
+    "mutation": 464.53,
+    "endBalance": 4973.53
+  },
+  {
+    "reference": 100124,
+    "accountNumber": "NL19RABO0555666777",
+    "description": "Parking Fee Maria Mulder",
+    "startBalance": 4787.34,
+    "mutation": 227.16,
+    "endBalance": 5014.5
+  },
+  {
+    "reference": 100004,
+    "accountNumber": "NL56INGB0123456789",
+    "description": "ATM Withdrawal Anna Smit",
+    "startBalance": 3225.5,
+    "mutation": 88.86,
+    "endBalance": 3314.36
+  },
+  {
+    "reference": 100030,
+    "accountNumber": "NL69ABNA0433647324",
+    "description": "Gas Station Shell",
+    "startBalance": 169.66,
+    "mutation": -338.17,
+    "endBalance": -168.51
+  },
+  {
+    "reference": 100052,
+    "accountNumber": "NL82ABNA0987654321",
+    "description": "Gym Membership",
+    "startBalance": 4709.06,
+    "mutation": -177.95,
+    "endBalance": 4531.11
+  },
+  {
+    "reference": 100003,
+    "accountNumber": "NL27SNSB0917829871",
+    "description": "Clothing Store H&M Emma Meijer",
+    "startBalance": 2239.57,
+    "mutation": -404.5,
+    "endBalance": 1835.07
+  },
+  {
+    "reference": 100061,
+    "accountNumber": "NL69ABNA0433647324",
+    "description": "Rent Payment",
+    "startBalance": 1120.43,
+    "mutation": 112.07,
+    "endBalance": 1235.56
+  },
+  {
+    "reference": 100114,
+    "accountNumber": "NL56INGB0123456789",
+    "description": "Public Transport",
+    "startBalance": 5206.93,
+    "mutation": -18.47,
+    "endBalance": 5188.46
+  },
+  {
+    "reference": 100165,
+    "accountNumber": "NL69ABNA0433647324",
+    "description": "Bank Transfer Sarah Jansen",
+    "startBalance": 6852.43,
+    "mutation": 114.96,
+    "endBalance": 6967.39
+  },
+  {
+    "reference": 100013,
+    "accountNumber": "NL38SNSB0111222333",
+    "description": "Book Store Purchase",
+    "startBalance": 251.8,
+    "mutation": 307.49,
+    "endBalance": 559.29
+  },
+  {
+    "reference": 100040,
+    "accountNumber": "NL93ABNA0585619023",
+    "description": "Groceries Albert Heijn Sarah van Dijk",
+    "startBalance": 9670.88,
+    "mutation": -240.77,
+    "endBalance": 9430.11
+  },
+  {
+    "reference": 100152,
+    "accountNumber": "NL74ABNA0248990274",
+    "description": "Gas Station Shell",
+    "startBalance": 1754.17,
+    "mutation": -481.4,
+    "endBalance": 1272.77
+  },
+  {
+    "reference": 100068,
+    "accountNumber": "NL56INGB0123456789",
+    "description": "Bank Transfer",
+    "startBalance": 9361.21,
+    "mutation": 182.37,
+    "endBalance": 9543.58
+  },
+  {
+    "reference": 100109,
+    "accountNumber": "NL27SNSB0917829871",
+    "description": "Gym Membership",
+    "startBalance": 3503.24,
+    "mutation": 288.34,
+    "endBalance": 3791.58
+  },
+  {
+    "reference": 100054,
+    "accountNumber": "NL82ABNA0987654321",
+    "description": "Pharmacy Medication",
+    "startBalance": 9322.61,
+    "mutation": -3.06,
+    "endBalance": 9319.55
+  },
+  {
+    "reference": 100074,
+    "accountNumber": "NL56INGB0123456789",
+    "description": "Book Store Purchase",
+    "startBalance": 345.37,
+    "mutation": 266.91,
+    "endBalance": 612.28
+  },
+  {
+    "reference": 100123,
+    "accountNumber": "NL43AEGO0773393871",
+    "description": "Salary Payment",
+    "startBalance": 5398.15,
+    "mutation": -290.83,
+    "endBalance": 5107.32
+  },
+  {
+    "reference": 100084,
+    "accountNumber": "NL38SNSB0111222333",
+    "description": "Coffee Shop",
+    "startBalance": 3381.14,
+    "mutation": 8.73,
+    "endBalance": 3389.87
+  },
+  {
+    "reference": 100137,
+    "accountNumber": "NL19RABO0555666777",
+    "description": "Insurance Premium",
+    "startBalance": 8178.82,
+    "mutation": 287.86,
+    "endBalance": 8466.68
+  },
+  {
+    "reference": 100185,
+    "accountNumber": "NL43AEGO0773393871",
+    "description": "Mobile Phone Bill",
+    "startBalance": 1392.35,
+    "mutation": -328.22,
+    "endBalance": 1064.13
+  },
+  {
+    "reference": 100057,
+    "accountNumber": "NL27SNSB0917829871",
+    "description": "Electricity Bill",
+    "startBalance": 8858.0,
+    "mutation": -239.83,
+    "endBalance": 8618.17
+  },
+  {
+    "reference": 100090,
+    "accountNumber": "NL43AEGO0773393871",
+    "description": "Clothing Store H&M Jan de Groot",
+    "startBalance": 3409.07,
+    "mutation": 311.03,
+    "endBalance": 3720.1
+  },
+  {
+    "reference": 100127,
+    "accountNumber": "NL82ABNA0987654321",
+    "description": "Online Shopping",
+    "startBalance": 9971.78,
+    "mutation": -475.04,
+    "endBalance": 9496.74
+  },
+  {
+    "reference": 100037,
+    "accountNumber": "NL38SNSB0111222333",
+    "description": "Insurance Premium",
+    "startBalance": 1292.95,
+    "mutation": 129.01,
+    "endBalance": 1421.96
+  },
+  {
+    "reference": 100173,
+    "accountNumber": "NL93ABNA0585619023",
+    "description": "Pharmacy Medication",
+    "startBalance": 2766.73,
+    "mutation": 353.69,
+    "endBalance": 3120.42
+  },
+  {
+    "reference": 100094,
+    "accountNumber": "NL74ABNA0248990274",
+    "description": "Coffee Shop",
+    "startBalance": 7770.35,
+    "mutation": 337.46,
+    "endBalance": 8107.81
+  },
+  {
+    "reference": 100101,
+    "accountNumber": "NL91RABO0315273637",
+    "description": "Mobile Phone Bill Emma de Vries",
+    "startBalance": 5684.14,
+    "mutation": -198.86,
+    "endBalance": 5485.28
+  },
+  {
+    "reference": 100095,
+    "accountNumber": "NL74ABNA0248990274",
+    "description": "Bank Transfer Anna de Boer",
+    "startBalance": 762.84,
+    "mutation": -390.3,
+    "endBalance": 372.54
+  },
+  {
+    "reference": 100009,
+    "accountNumber": "NL38SNSB0111222333",
+    "description": "Gym Membership",
+    "startBalance": 2467.36,
+    "mutation": 59.37,
+    "endBalance": 2526.73
+  },
+  {
+    "reference": 100174,
+    "accountNumber": "NL27SNSB0917829871",
+    "description": "Groceries Albert Heijn",
+    "startBalance": 1181.0,
+    "mutation": -279.93,
+    "endBalance": 901.07
+  },
+  {
+    "reference": 100081,
+    "accountNumber": "NL19RABO0555666777",
+    "description": "Pharmacy Medication",
+    "startBalance": 9143.5,
+    "mutation": -178.6,
+    "endBalance": 8964.9
+  },
+  {
+    "reference": 100116,
+    "accountNumber": "NL43AEGO0773393871",
+    "description": "Online Shopping",
+    "startBalance": 9171.34,
+    "mutation": -312.8,
+    "endBalance": 8858.54
+  },
+  {
+    "reference": 100028,
+    "accountNumber": "NL91RABO0315273637",
+    "description": "Mobile Phone Bill",
+    "startBalance": 7024.0,
+    "mutation": 72.36,
+    "endBalance": 7096.36
+  },
+  {
+    "reference": 100128,
+    "accountNumber": "NL93ABNA0585619023",
+    "description": "Mobile Phone Bill",
+    "startBalance": 9792.19,
+    "mutation": -368.87,
+    "endBalance": 9423.32
+  },
+  {
+    "reference": 100120,
+    "accountNumber": "NL38SNSB0111222333",
+    "description": "Parking Fee",
+    "startBalance": 5048.33,
+    "mutation": -341.57,
+    "endBalance": 4706.76
+  },
+  {
+    "reference": 100058,
+    "accountNumber": "NL19RABO0555666777",
+    "description": "Groceries Albert Heijn Peter Mulder",
+    "startBalance": 99.61,
+    "mutation": -233.16,
+    "endBalance": -133.55
+  },
+  {
+    "reference": 100045,
+    "accountNumber": "NL43AEGO0773393871",
+    "description": "Restaurant De Librije",
+    "startBalance": 9179.02,
+    "mutation": -435.64,
+    "endBalance": 8743.38
+  },
+  {
+    "reference": 100148,
+    "accountNumber": "NL56INGB0123456789",
+    "description": "Mobile Phone Bill",
+    "startBalance": 4369.69,
+    "mutation": 448.58,
+    "endBalance": 4818.27
+  },
+  {
+    "reference": 100184,
+    "accountNumber": "NL27SNSB0917829871",
+    "description": "Public Transport",
+    "startBalance": 5737.01,
+    "mutation": 364.59,
+    "endBalance": 6101.6
+  },
+  {
+    "reference": 100042,
+    "accountNumber": "NL82ABNA0987654321",
+    "description": "Gas Station Shell",
+    "startBalance": 1818.58,
+    "mutation": -336.35,
+    "endBalance": 1482.23
+  },
+  {
+    "reference": 100131,
+    "accountNumber": "NL19RABO0555666777",
+    "description": "Coffee Shop",
+    "startBalance": 6279.37,
+    "mutation": 453.28,
+    "endBalance": 6732.65
+  },
+  {
+    "reference": 100146,
+    "accountNumber": "NL69ABNA0433647324",
+    "description": "Rent Payment",
+    "startBalance": 2576.78,
+    "mutation": -106.79,
+    "endBalance": 2469.99
+  },
+  {
+    "reference": 100119,
+    "accountNumber": "NL74ABNA0248990274",
+    "description": "Online Shopping",
+    "startBalance": 1896.13,
+    "mutation": -474.79,
+    "endBalance": 1421.34
+  },
+  {
+    "reference": 100142,
+    "accountNumber": "NL56INGB0123456789",
+    "description": "Pharmacy Medication Emma de Groot",
+    "startBalance": 1788.95,
+    "mutation": 171.24,
+    "endBalance": 1960.19
+  },
+  {
+    "reference": 100111,
+    "accountNumber": "NL27SNSB0917829871",
+    "description": "Public Transport",
+    "startBalance": 3764.36,
+    "mutation": 489.8,
+    "endBalance": 4254.16
+  },
+  {
+    "reference": 100012,
+    "accountNumber": "NL56INGB0123456789",
+    "description": "Salary Payment",
+    "startBalance": 1910.11,
+    "mutation": -83.77,
+    "endBalance": 1826.34
+  },
+  {
+    "reference": 100180,
+    "accountNumber": "NL91RABO0315273637",
+    "description": "Coffee Shop",
+    "startBalance": 6426.04,
+    "mutation": -210.65,
+    "endBalance": 6215.39
+  },
+  {
+    "reference": 100044,
+    "accountNumber": "NL93ABNA0585619023",
+    "description": "Book Store Purchase Michael de Groot",
+    "startBalance": 3482.96,
+    "mutation": -408.96,
+    "endBalance": 3074.0
+  },
+  {
+    "reference": 100032,
+    "accountNumber": "NL93ABNA0585619023",
+    "description": "Groceries Albert Heijn",
+    "startBalance": 173.18,
+    "mutation": -237.99,
+    "endBalance": -64.81
+  },
+  {
+    "reference": 100080,
+    "accountNumber": "NL27SNSB0917829871",
+    "description": "Groceries Albert Heijn Sophie de Groot",
+    "startBalance": 1482.27,
+    "mutation": -90.86,
+    "endBalance": 1391.41
+  },
+  {
+    "reference": 100164,
+    "accountNumber": "NL19RABO0555666777",
+    "description": "Mobile Phone Bill",
+    "startBalance": 256.37,
+    "mutation": 262.39,
+    "endBalance": 518.76
+  },
+  {
+    "reference": 100160,
+    "accountNumber": "NL93ABNA0585619023",
+    "description": "Bank Transfer",
+    "startBalance": 6051.28,
+    "mutation": -320.5,
+    "endBalance": 5730.78
+  },
+  {
+    "reference": 100060,
+    "accountNumber": "NL27SNSB0917829871",
+    "description": "Online Shopping",
+    "startBalance": 2855.11,
+    "mutation": 70.15,
+    "endBalance": 2925.26
+  },
+  {
+    "reference": 100102,
+    "accountNumber": "NL43AEGO0773393871",
+    "description": "Coffee Shop",
+    "startBalance": 8365.46,
+    "mutation": 253.12,
+    "endBalance": 8618.58
+  },
+  {
+    "reference": 100166,
+    "accountNumber": "NL69ABNA0433647324",
+    "description": "Coffee Shop",
+    "startBalance": 5432.92,
+    "mutation": -323.14,
+    "endBalance": 5109.78
+  },
+  {
+    "reference": 100107,
+    "accountNumber": "NL93ABNA0585619023",
+    "description": "Mobile Phone Bill",
+    "startBalance": 9277.32,
+    "mutation": -3.09,
+    "endBalance": 9274.23
+  },
+  {
+    "reference": 100177,
+    "accountNumber": "NL91RABO0315273637",
+    "description": "Book Store Purchase David de Boer",
+    "startBalance": 9988.79,
+    "mutation": 107.59,
+    "endBalance": 10096.38
+  },
+  {
+    "reference": 100116,
+    "accountNumber": "NL91RABO0315273637",
+    "description": "Salary Payment",
+    "startBalance": 6796.07,
+    "mutation": -376.12,
+    "endBalance": 6419.95
+  },
+  {
+    "reference": 100132,
+    "accountNumber": "NL19RABO0555666777",
+    "description": "Gym Membership",
+    "startBalance": 1487.95,
+    "mutation": 350.36,
+    "endBalance": 1838.31
+  },
+  {
+    "reference": 100110,
+    "accountNumber": "NL19RABO0555666777",
+    "description": "ATM Withdrawal Maria Bakker",
+    "startBalance": 2028.85,
+    "mutation": 344.63,
+    "endBalance": 2373.48
+  },
+  {
+    "reference": 100141,
+    "accountNumber": "NL43AEGO0773393871",
+    "description": "Insurance Premium",
+    "startBalance": 4969.24,
+    "mutation": -70.56,
+    "endBalance": 4898.68
+  },
+  {
+    "reference": 100135,
+    "accountNumber": "NL82ABNA0987654321",
+    "description": "Gym Membership",
+    "startBalance": 2703.37,
+    "mutation": -441.92,
+    "endBalance": 2261.45
+  },
+  {
+    "reference": 100019,
+    "accountNumber": "NL43AEGO0773393871",
+    "description": "Pharmacy Medication",
+    "startBalance": 5333.84,
+    "mutation": 412.99,
+    "endBalance": 5746.83
+  },
+  {
+    "reference": 100026,
+    "accountNumber": "NL93ABNA0585619023",
+    "description": "ATM Withdrawal Sophie Meijer",
+    "startBalance": 5979.02,
+    "mutation": 464.91,
+    "endBalance": 6443.93
+  },
+  {
+    "reference": 100126,
+    "accountNumber": "NL19RABO0555666777",
+    "description": "Internet Subscription Michael de Vries",
+    "startBalance": 5343.6,
+    "mutation": -469.68,
+    "endBalance": 4873.92
+  },
+  {
+    "reference": 100007,
+    "accountNumber": "NL19RABO0555666777",
+    "description": "Clothing Store H&M",
+    "startBalance": 8226.41,
+    "mutation": 184.8,
+    "endBalance": 8411.21
+  },
+  {
+    "reference": 100014,
+    "accountNumber": "NL19RABO0555666777",
+    "description": "Movie Theater",
+    "startBalance": 5171.67,
+    "mutation": -478.44,
+    "endBalance": 4693.23
+  },
+  {
+    "reference": 100001,
+    "accountNumber": "NL91RABO0315273637",
+    "description": "Restaurant De Librije",
+    "startBalance": 1005.0,
+    "mutation": -67.02,
+    "endBalance": 937.98
+  },
+  {
+    "reference": 100134,
+    "accountNumber": "NL82ABNA0987654321",
+    "description": "Mobile Phone Bill",
+    "startBalance": 2549.25,
+    "mutation": -3.15,
+    "endBalance": 2546.1
+  },
+  {
+    "reference": 100149,
+    "accountNumber": "NL91RABO0315273637",
+    "description": "Bank Transfer David Jansen",
+    "startBalance": 305.37,
+    "mutation": -340.31,
+    "endBalance": -34.94
+  },
+  {
+    "reference": 100016,
+    "accountNumber": "NL19RABO0555666777",
+    "description": "Bank Transfer",
+    "startBalance": 7729.42,
+    "mutation": 201.31,
+    "endBalance": 7930.73
+  },
+  {
+    "reference": 100025,
+    "accountNumber": "NL38SNSB0111222333",
+    "description": "Mobile Phone Bill Emma de Vries",
+    "startBalance": 4064.73,
+    "mutation": -86.51,
+    "endBalance": 3978.22
+  },
+  {
+    "reference": 100136,
+    "accountNumber": "NL43AEGO0773393871",
+    "description": "Clothing Store H&M",
+    "startBalance": 7586.47,
+    "mutation": -81.08,
+    "endBalance": 7505.39
+  },
+  {
+    "reference": 100155,
+    "accountNumber": "NL27SNSB0917829871",
+    "description": "Online Shopping",
+    "startBalance": 1696.15,
+    "mutation": 29.96,
+    "endBalance": 1726.11
+  },
+  {
+    "reference": 100021,
+    "accountNumber": "NL93ABNA0585619023",
+    "description": "Coffee Shop",
+    "startBalance": 9741.6,
+    "mutation": 341.17,
+    "endBalance": 10082.77
+  },
+  {
+    "reference": 100179,
+    "accountNumber": "NL43AEGO0773393871",
+    "description": "Book Store Purchase",
+    "startBalance": 658.47,
+    "mutation": -486.3,
+    "endBalance": 172.17
+  },
+  {
+    "reference": 100129,
+    "accountNumber": "NL91RABO0315273637",
+    "description": "Book Store Purchase",
+    "startBalance": 6438.96,
+    "mutation": 16.21,
+    "endBalance": 6455.17
+  },
+  {
+    "reference": 100059,
+    "accountNumber": "NL69ABNA0433647324",
+    "description": "Public Transport",
+    "startBalance": 6549.3,
+    "mutation": -273.41,
+    "endBalance": 6275.89
+  },
+  {
+    "reference": 100078,
+    "accountNumber": "NL43AEGO0773393871",
+    "description": "Rent Payment Anna Meijer",
+    "startBalance": 3348.59,
+    "mutation": 385.06,
+    "endBalance": 3733.65
+  },
+  {
+    "reference": 100171,
+    "accountNumber": "NL82ABNA0987654321",
+    "description": "Mobile Phone Bill Anna Smit",
+    "startBalance": 9448.43,
+    "mutation": 202.44,
+    "endBalance": 9650.87
+  },
+  {
+    "reference": 100166,
+    "accountNumber": "NL91RABO0315273637",
+    "description": "Gym Membership",
+    "startBalance": 1918.72,
+    "mutation": -248.07,
+    "endBalance": 1670.65
+  },
+  {
+    "reference": 100043,
+    "accountNumber": "NL82ABNA0987654321",
+    "description": "Electricity Bill",
+    "startBalance": 8335.45,
+    "mutation": 486.9,
+    "endBalance": 8822.35
+  },
+  {
+    "reference": 100176,
+    "accountNumber": "NL56INGB0123456789",
+    "description": "Mobile Phone Bill",
+    "startBalance": 9019.82,
+    "mutation": 199.76,
+    "endBalance": 9219.58
+  },
+  {
+    "reference": 100027,
+    "accountNumber": "NL43AEGO0773393871",
+    "description": "Gas Station Shell",
+    "startBalance": 1814.54,
+    "mutation": 335.88,
+    "endBalance": 2150.42
+  },
+  {
+    "reference": 100130,
+    "accountNumber": "NL69ABNA0433647324",
+    "description": "Groceries Albert Heijn Sarah Mulder",
+    "startBalance": 5172.14,
+    "mutation": 354.19,
+    "endBalance": 5526.33
+  },
+  {
+    "reference": 100166,
+    "accountNumber": "NL91RABO0315273637",
+    "description": "ATM Withdrawal",
+    "startBalance": 457.19,
+    "mutation": 455.25,
+    "endBalance": 912.44
+  },
+  {
+    "reference": 100133,
+    "accountNumber": "NL38SNSB0111222333",
+    "description": "Groceries Albert Heijn",
+    "startBalance": 3528.72,
+    "mutation": 480.58,
+    "endBalance": 4009.3
+  },
+  {
+    "reference": 100163,
+    "accountNumber": "NL43AEGO0773393871",
+    "description": "Gym Membership",
+    "startBalance": 8109.51,
+    "mutation": 327.61,
+    "endBalance": 8437.12
+  },
+  {
+    "reference": 100187,
+    "accountNumber": "NL91RABO0315273637",
+    "description": "Salary Payment",
+    "startBalance": 3520.55,
+    "mutation": 112.33,
+    "endBalance": 3632.88
+  },
+  {
+    "reference": 100116,
+    "accountNumber": "NL19RABO0555666777",
+    "description": "Restaurant De Librije",
+    "startBalance": 7588.68,
+    "mutation": 270.52,
+    "endBalance": 7859.2
+  },
+  {
+    "reference": 100018,
+    "accountNumber": "NL43AEGO0773393871",
+    "description": "Pharmacy Medication Sophie de Vries",
+    "startBalance": 8111.65,
+    "mutation": 108.92,
+    "endBalance": 8252.53
+  },
+  {
+    "reference": 100125,
+    "accountNumber": "NL27SNSB0917829871",
+    "description": "Pharmacy Medication",
+    "startBalance": 9575.54,
+    "mutation": 128.12,
+    "endBalance": 9703.66
+  },
+  {
+    "reference": 100033,
+    "accountNumber": "NL43AEGO0773393871",
+    "description": "ATM Withdrawal",
+    "startBalance": 6847.79,
+    "mutation": -88.26,
+    "endBalance": 6759.53
+  },
+  {
+    "reference": 100049,
+    "accountNumber": "NL74ABNA0248990274",
+    "description": "Rent Payment Michael de Vries",
+    "startBalance": 7563.61,
+    "mutation": 307.32,
+    "endBalance": 7870.93
+  },
+  {
+    "reference": 100121,
+    "accountNumber": "NL43AEGO0773393871",
+    "description": "Bank Transfer",
+    "startBalance": 3256.56,
+    "mutation": 402.65,
+    "endBalance": 3659.21
+  },
+  {
+    "reference": 100122,
+    "accountNumber": "NL93ABNA0585619023",
+    "description": "Restaurant De Librije",
+    "startBalance": 8939.57,
+    "mutation": 298.11,
+    "endBalance": 9237.68
+  },
+  {
+    "reference": 100186,
+    "accountNumber": "NL82ABNA0987654321",
+    "description": "ATM Withdrawal",
+    "startBalance": 8501.19,
+    "mutation": -325.87,
+    "endBalance": 8175.32
+  },
+  {
+    "reference": 100151,
+    "accountNumber": "NL38SNSB0111222333",
+    "description": "Bank Transfer",
+    "startBalance": 9703.46,
+    "mutation": -373.09,
+    "endBalance": 9330.37
+  }
+]

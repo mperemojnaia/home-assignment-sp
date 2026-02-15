@@ -1,0 +1,317 @@
+{
+  "consumer": {
+    "name": "web-client"
+  },
+  "provider": {
+    "name": "transaction-record-validator"
+  },
+  "interactions": [
+    {
+      "description": "validate a CSV file with no errors",
+      "request": {
+        "method": "POST",
+        "path": "/api/v1/transaction-records/validate",
+        "headers": {
+          "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundary"
+        },
+        "body": "------WebKitFormBoundary\r\nContent-Disposition: form-data; name=\"file\"; filename=\"valid.csv\"\r\nContent-Type: text/csv\r\n\r\nReference,AccountNumber,Description,Start Balance,Mutation,End Balance\n100001,NL91RABO0315273637,Test Transaction,100.00,50.00,150.00\n\r\n------WebKitFormBoundary--\r\n",
+        "matchingRules": {
+          "body": {
+            "$.headers.Content-Type": {
+              "match": "regex",
+              "regex": "multipart/form-data.*"
+            }
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "valid": true,
+          "totalRecords": 1,
+          "failedRecords": 0,
+          "failures": [],
+          "correlationId": "550e8400-e29b-41d4-a716-446655440000"
+        },
+        "matchingRules": {
+          "body": {
+            "$.valid": {
+              "matchers": [{"match": "type"}]
+            },
+            "$.totalRecords": {
+              "matchers": [{"match": "integer"}]
+            },
+            "$.failedRecords": {
+              "matchers": [{"match": "integer"}]
+            },
+            "$.failures": {
+              "matchers": [{"match": "type"}]
+            },
+            "$.correlationId": {
+              "matchers": [{"match": "regex", "regex": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"}]
+            }
+          }
+        }
+      }
+    },
+    {
+      "description": "validate a JSON file with validation failures",
+      "request": {
+        "method": "POST",
+        "path": "/api/v1/transaction-records/validate",
+        "headers": {
+          "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundary"
+        },
+        "body": "------WebKitFormBoundary\r\nContent-Disposition: form-data; name=\"file\"; filename=\"invalid.json\"\r\nContent-Type: application/json\r\n\r\n[{\"reference\":100001,\"accountNumber\":\"NL91RABO0315273637\",\"description\":\"Test\",\"startBalance\":100.00,\"mutation\":50.00,\"endBalance\":200.00}]\r\n------WebKitFormBoundary--\r\n",
+        "matchingRules": {
+          "body": {
+            "$.headers.Content-Type": {
+              "match": "regex",
+              "regex": "multipart/form-data.*"
+            }
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "valid": false,
+          "totalRecords": 1,
+          "failedRecords": 1,
+          "failures": [
+            {
+              "reference": 100001,
+              "reasons": ["INCORRECT_END_BALANCE"]
+            }
+          ],
+          "correlationId": "550e8400-e29b-41d4-a716-446655440000"
+        },
+        "matchingRules": {
+          "body": {
+            "$.valid": {
+              "matchers": [{"match": "type"}]
+            },
+            "$.totalRecords": {
+              "matchers": [{"match": "integer"}]
+            },
+            "$.failedRecords": {
+              "matchers": [{"match": "integer"}]
+            },
+            "$.failures": {
+              "matchers": [{"match": "type", "min": 1}]
+            },
+            "$.failures[*].reference": {
+              "matchers": [{"match": "integer"}]
+            },
+            "$.failures[*].reasons": {
+              "matchers": [{"match": "type"}]
+            },
+            "$.correlationId": {
+              "matchers": [{"match": "regex", "regex": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"}]
+            }
+          }
+        }
+      }
+    },
+    {
+      "description": "reject an empty file",
+      "request": {
+        "method": "POST",
+        "path": "/api/v1/transaction-records/validate",
+        "headers": {
+          "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundary"
+        },
+        "body": "------WebKitFormBoundary\r\nContent-Disposition: form-data; name=\"file\"; filename=\"empty.csv\"\r\nContent-Type: text/csv\r\n\r\n\r\n------WebKitFormBoundary--\r\n",
+        "matchingRules": {
+          "body": {
+            "$.headers.Content-Type": {
+              "match": "regex",
+              "regex": "multipart/form-data.*"
+            }
+          }
+        }
+      },
+      "response": {
+        "status": 400,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "status": 400,
+          "type": "about:blank",
+          "title": "Empty File",
+          "detail": "File is empty",
+          "instance": "/api/v1/transaction-records/validate",
+          "timestamp": "2026-02-14T12:00:00.000Z",
+          "correlationId": "550e8400-e29b-41d4-a716-446655440000",
+          "errorCode": "EMPTY_FILE"
+        },
+        "matchingRules": {
+          "body": {
+            "$.status": {
+              "matchers": [{"match": "integer"}]
+            },
+            "$.type": {
+              "matchers": [{"match": "type"}]
+            },
+            "$.title": {
+              "matchers": [{"match": "type"}]
+            },
+            "$.detail": {
+              "matchers": [{"match": "type"}]
+            },
+            "$.instance": {
+              "matchers": [{"match": "type"}]
+            },
+            "$.timestamp": {
+              "matchers": [{"match": "regex", "regex": "\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}.*"}]
+            },
+            "$.correlationId": {
+              "matchers": [{"match": "regex", "regex": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"}]
+            },
+            "$.errorCode": {
+              "matchers": [{"match": "type"}]
+            }
+          }
+        }
+      }
+    },
+    {
+      "description": "reject an unsupported file format",
+      "request": {
+        "method": "POST",
+        "path": "/api/v1/transaction-records/validate",
+        "headers": {
+          "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundary"
+        },
+        "body": "------WebKitFormBoundary\r\nContent-Disposition: form-data; name=\"file\"; filename=\"file.txt\"\r\nContent-Type: text/plain\r\n\r\nSome text content\r\n------WebKitFormBoundary--\r\n",
+        "matchingRules": {
+          "body": {
+            "$.headers.Content-Type": {
+              "match": "regex",
+              "regex": "multipart/form-data.*"
+            }
+          }
+        }
+      },
+      "response": {
+        "status": 415,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "status": 415,
+          "type": "about:blank",
+          "title": "Unsupported File Format",
+          "detail": "Unsupported file format. Only CSV and JSON are supported",
+          "instance": "/api/v1/transaction-records/validate",
+          "timestamp": "2026-02-14T12:00:00.000Z",
+          "correlationId": "550e8400-e29b-41d4-a716-446655440000",
+          "errorCode": "UNSUPPORTED_FORMAT"
+        },
+        "matchingRules": {
+          "body": {
+            "$.status": {
+              "matchers": [{"match": "integer"}]
+            },
+            "$.type": {
+              "matchers": [{"match": "type"}]
+            },
+            "$.title": {
+              "matchers": [{"match": "type"}]
+            },
+            "$.detail": {
+              "matchers": [{"match": "type"}]
+            },
+            "$.instance": {
+              "matchers": [{"match": "type"}]
+            },
+            "$.timestamp": {
+              "matchers": [{"match": "regex", "regex": "\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}.*"}]
+            },
+            "$.correlationId": {
+              "matchers": [{"match": "regex", "regex": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"}]
+            },
+            "$.errorCode": {
+              "matchers": [{"match": "type"}]
+            }
+          }
+        }
+      }
+    },
+    {
+      "description": "reject a malformed CSV file",
+      "request": {
+        "method": "POST",
+        "path": "/api/v1/transaction-records/validate",
+        "headers": {
+          "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundary"
+        },
+        "body": "------WebKitFormBoundary\r\nContent-Disposition: form-data; name=\"file\"; filename=\"malformed.csv\"\r\nContent-Type: text/csv\r\n\r\nReference,AccountNumber\n100001,NL91RABO0315273637\n\r\n------WebKitFormBoundary--\r\n",
+        "matchingRules": {
+          "body": {
+            "$.headers.Content-Type": {
+              "match": "regex",
+              "regex": "multipart/form-data.*"
+            }
+          }
+        }
+      },
+      "response": {
+        "status": 400,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "status": 400,
+          "type": "about:blank",
+          "title": "Parse Error",
+          "detail": "Failed to parse file: Missing required header: Description",
+          "instance": "/api/v1/transaction-records/validate",
+          "timestamp": "2026-02-14T12:00:00.000Z",
+          "correlationId": "550e8400-e29b-41d4-a716-446655440000",
+          "errorCode": "PARSE_ERROR"
+        },
+        "matchingRules": {
+          "body": {
+            "$.status": {
+              "matchers": [{"match": "integer"}]
+            },
+            "$.type": {
+              "matchers": [{"match": "type"}]
+            },
+            "$.title": {
+              "matchers": [{"match": "type"}]
+            },
+            "$.detail": {
+              "matchers": [{"match": "regex", "regex": "Failed to parse file:.*"}]
+            },
+            "$.instance": {
+              "matchers": [{"match": "type"}]
+            },
+            "$.timestamp": {
+              "matchers": [{"match": "regex", "regex": "\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}.*"}]
+            },
+            "$.correlationId": {
+              "matchers": [{"match": "regex", "regex": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"}]
+            },
+            "$.errorCode": {
+              "matchers": [{"match": "type"}]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "3.0.0"
+    }
+  }
+}

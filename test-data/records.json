@@ -1,0 +1,82 @@
+[
+   {
+      "reference": "130498",
+      "accountNumber": "NL69ABNA0433647324",
+      "description": "Book Jan Theuß",
+      "startBalance": 26.9,
+      "mutation": -18.78,
+      "endBalance": 8.12
+   },
+   {
+      "reference": "167875",
+      "accountNumber": "NL93ABNA0585619023",
+      "description": "Toy Greg Alysha",
+      "startBalance": 5429,
+      "mutation": -939,
+      "endBalance": 6368
+   },
+   {
+      "reference": "147674",
+      "accountNumber": "NL93ABNA0585619023",
+      "description": "Flowers Julianne Othmar",
+      "startBalance": 74.69,
+      "mutation": -44.91,
+      "endBalance": 29.78
+   },
+   {
+      "reference": "135607",
+      "accountNumber": "NL27SNSB0917829871",
+      "description": "Flowers Jan Theuß",
+      "startBalance": 70.42,
+      "mutation": 34.42,
+      "endBalance": 104.84
+   },
+   {
+      "reference": "169639",
+      "accountNumber": "NL43AEGO0773393871",
+      "description": "Book Wade Kathie",
+      "startBalance": 31.78,
+      "mutation": -6.14,
+      "endBalance": 25.64
+   },
+   {
+      "reference": "105549",
+      "accountNumber": "NL43AEGO0773393871",
+      "description": "Clothes Julianne Othmar",
+      "startBalance": 105.75,
+      "mutation": -26.17,
+      "endBalance": 79.58
+   },
+   {
+      "reference": "150438",
+      "accountNumber": "NL74ABNA0248990274",
+      "description": "Toy Jan de Vries",
+      "startBalance": 10.1,
+      "mutation": -0.3,
+      "endBalance": 9.8
+   },
+   {
+      "reference": "172833",
+      "accountNumber": "NL69ABNA0433647324",
+      "description": "Book Dirk-Jan Theuß",
+      "startBalance": 66.72,
+      "mutation": -41.74,
+      "endBalance": 24.98
+   },
+   {
+      "reference": "165102",
+      "accountNumber": "NL93ABNA0585619023",
+      "description": "Book Shevaun Taylor",
+      "startBalance": 3980,
+      "mutation": 1000,
+      "endBalance": 4981
+   },
+   {
+      "reference": "170148",
+      "accountNumber": "NL43AEGO0773393871",
+      "description": "Flowers Morley Koos",
+      "startBalance": 16.52,
+      "mutation": 43.09,
+      "endBalance": 59.61
+   }
+]
