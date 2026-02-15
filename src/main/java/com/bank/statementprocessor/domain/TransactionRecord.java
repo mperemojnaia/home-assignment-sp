@@ -8,9 +8,6 @@ import lombok.NoArgsConstructor;
 import java.math.BigDecimal;
 
 /**
- * Represents a single bank transaction record containing reference, account information,
- * description, and balance details.
- * 
  * This entity is used to validate transaction data from uploaded CSV or JSON files.
  */
 @Data
@@ -50,10 +47,10 @@ public class TransactionRecord {
     private BigDecimal endBalance;
     
     /**
-     * Validates that the balance calculation is correct within a tolerance of 0.01.
+     * Validates that the balance calculation is exactly correct.
      * The calculation verifies: startBalance + mutation = endBalance
-     * 
-     * @return true if the balance calculation is correct within tolerance, false otherwise
+     *
+     * @return true if the balance calculation is exactly correct, false otherwise
      */
     public boolean isBalanceCorrect() {
         if (startBalance == null || mutation == null || endBalance == null) {
@@ -61,7 +58,6 @@ public class TransactionRecord {
         }
         
         BigDecimal calculated = startBalance.add(mutation);
-        BigDecimal difference = calculated.subtract(endBalance).abs();
-        return difference.compareTo(new BigDecimal("0.01")) <= 0;
+        return calculated.compareTo(endBalance) == 0;
     }
 }

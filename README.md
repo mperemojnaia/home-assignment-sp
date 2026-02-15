@@ -6,7 +6,7 @@ A Java Spring Boot REST API service for validating bank transaction records from
 
 The Customer Statement Processor validates transaction records by checking:
 - **Reference Uniqueness**: Ensures all transaction references are unique
-- **Balance Calculation**: Verifies that `startBalance + mutation = endBalance` (with 0.01 tolerance)
+- **Balance Calculation**: Verifies that `startBalance + mutation = endBalance` (exact match required)
 
 ## Technology Stack
 

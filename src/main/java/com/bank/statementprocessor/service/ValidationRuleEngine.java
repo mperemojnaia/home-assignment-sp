@@ -24,7 +24,7 @@ public class ValidationRuleEngine {
     /**
      * Validates a list of transaction records by applying all validation rules.
      * 1. Reference uniqueness - identifies duplicate transaction references
-     * 2. Balance calculation - verifies startBalance + mutation = endBalance (within 0.01 tolerance)
+     * 2. Balance calculation - verifies startBalance + mutation = endBalance (exact match required)
      * 
      * @param records the list of transaction records to validate
      * @return a ValidationReport containing all failures and validation statistics
