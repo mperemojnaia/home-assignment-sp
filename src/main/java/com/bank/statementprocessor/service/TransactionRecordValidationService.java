@@ -30,11 +30,6 @@ public class TransactionRecordValidationService {
     /**
      * Validates a transaction record file by parsing it and applying validation rules.
      * 
-     * All exceptions are runtime exceptions that will be handled by GlobalExceptionHandler:
-     * - ParseException: File parsing failures (malformed CSV/JSON)
-     * - UnsupportedFileFormatException: Unsupported file format
-     * - ValidationException: Unexpected validation errors
-     *
      * @param file the uploaded file to validate
      * @return ValidationReport containing validation results
      */
@@ -55,11 +50,9 @@ public class TransactionRecordValidationService {
             return report;
             
         } catch (ParseException | UnsupportedFileFormatException e) {
-            // Client error - malformed file or unsupported format, use warn
             log.warn("Client error during validation: {}", e.getMessage());
             throw e;
         } catch (Exception e) {
-            // Server error - unexpected failure
             log.error("Unexpected error during validation", e);
             throw new ValidationException("Unexpected error during validation", e);
         }

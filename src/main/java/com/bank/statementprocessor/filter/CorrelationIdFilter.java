@@ -12,7 +12,6 @@ import java.util.UUID;
 
 /**
  * Filter that sets up correlation ID in MDC for request tracking.
- * Runs early in the filter chain to ensure correlation ID is available for all logging.
  */
 @Component
 @Order(1)
@@ -28,19 +27,16 @@ public class CorrelationIdFilter implements Filter {
         
         HttpServletRequest httpRequest = (HttpServletRequest) request;
         
-        // Use correlation ID from header if present, otherwise generate new one
         String correlationId = httpRequest.getHeader(CORRELATION_ID_HEADER);
         if (correlationId == null || correlationId.trim().isEmpty()) {
             correlationId = UUID.randomUUID().toString();
         }
         
-        // Set in MDC for logging
         MDC.put(CORRELATION_ID_MDC_KEY, correlationId);
         
         try {
             chain.doFilter(request, response);
         } finally {
-            // Clean up specific key, not MDC.clear() which could affect other threads
             MDC.remove(CORRELATION_ID_MDC_KEY);
         }
     }

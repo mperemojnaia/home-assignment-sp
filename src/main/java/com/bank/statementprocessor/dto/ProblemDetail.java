@@ -5,12 +5,6 @@ import io.swagger.v3.oas.annotations.media.Schema;
 
 import java.time.Instant;
 
-/**
- * RFC 7807 Problem Details for HTTP APIs.
- * Provides structured, machine-readable error responses.
- * 
- * Implemented as a Java record for immutability and conciseness.
- */
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @Schema(description = "RFC 7807 Problem Details for structured error responses")
 public record ProblemDetail(

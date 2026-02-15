@@ -8,7 +8,6 @@ import lombok.NoArgsConstructor;
 import java.time.Instant;
 
 /**
- * Data Transfer Object for error responses.
  * Matches the OpenAPI schema for ErrorResponse.
  */
 @Data

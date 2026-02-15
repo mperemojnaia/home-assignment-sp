@@ -10,7 +10,6 @@ import lombok.NoArgsConstructor;
 import java.util.List;
 
 /**
- * Data Transfer Object for validation report responses.
  * Provides consistent API response structure with correlation ID for traceability.
  */
 @Data

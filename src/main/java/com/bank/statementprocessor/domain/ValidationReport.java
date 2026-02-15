@@ -38,7 +38,6 @@ public class ValidationReport {
     
     /**
      * Number of transaction records that failed validation.
-     * Should equal the size of the failures list.
      */
     private int failedRecords;
 }
