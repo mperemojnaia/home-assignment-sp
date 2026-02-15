@@ -176,7 +176,7 @@
                                         <limit>
                                             <counter>LINE</counter>
                                             <value>COVEREDRATIO</value>
-                                            <minimum>0.70</minimum>
+                                            <minimum>0.80</minimum>
                                         </limit>
                                     </limits>
                                 </rule>
@@ -186,7 +186,12 @@
                                 <exclude>**/*Builder.class</exclude>
                                 <!-- Exclude main application class -->
                                 <exclude>**/CustomerStatementProcessorApplication.class</exclude>
-                            </excludes>
+                                <!-- Exclude DTOs (data containers) -->
+                                <exclude>**/dto/*.class</exclude>
+                                <!-- Exclude domain models (mostly Lombok) -->
+                                <exclude>**/domain/*.class</exclude>
+                                <!-- Exclude exception classes -->
+                                <exclude>**/exception/*.class</exclude></excludes>
                         </configuration>
                     </execution>
                 </executions>

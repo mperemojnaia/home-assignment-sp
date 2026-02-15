@@ -9,9 +9,6 @@ import java.util.Set;
 
 /**
  * Represents a validation failure for a transaction record.
- * 
- * Contains the transaction reference, description, and the set of reasons
- * why the transaction failed validation.
  */
 @Data
 @Builder
@@ -31,7 +28,6 @@ public class ValidationFailure {
     
     /**
      * Set of reasons why the transaction failed validation.
-     * A transaction can fail for multiple reasons (e.g., both duplicate reference and incorrect balance).
      */
     private Set<FailureReason> reasons;
     

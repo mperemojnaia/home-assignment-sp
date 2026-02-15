@@ -37,7 +37,7 @@ public class TransactionRecord {
     private BigDecimal startBalance;
     
     /**
-     * Transaction amount (positive for credits, negative for debits)
+     * Transaction amount
      */
     private BigDecimal mutation;
     

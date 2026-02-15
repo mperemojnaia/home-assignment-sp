@@ -14,8 +14,6 @@ import java.util.stream.Stream;
 /**
  * The engine constructs a ValidationReport containing all failures
  * and statistics about the validation process.
- * 
- * Uses streaming for memory-efficient processing - maintains only O(unique references) memory.
  */
 @Component
 @Slf4j

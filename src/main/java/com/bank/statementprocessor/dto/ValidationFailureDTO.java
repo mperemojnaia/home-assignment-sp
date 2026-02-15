@@ -9,7 +9,6 @@ import lombok.NoArgsConstructor;
 import java.util.Set;
 
 /**
- * Data Transfer Object for validation failure details.
  * Matches the OpenAPI schema for ValidationFailure.
  */
 @Data

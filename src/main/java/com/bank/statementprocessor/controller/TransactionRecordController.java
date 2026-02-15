@@ -93,7 +93,6 @@ public class TransactionRecordController {
             )
             @RequestParam("file") MultipartFile file) {
         
-        // Correlation ID is set by CorrelationIdFilter
         String correlationId = MDC.get("correlationId");
         
         log.info("Received validation request, size: {} bytes", file.getSize());
