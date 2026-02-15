@@ -1,6 +1,6 @@
 package com.bank.statementprocessor.testutil;
 
-import com.bank.statementprocessor.domain.TransactionRecord;
+import com.bank.statementprocessor.core.model.TransactionRecord;
 
 import java.math.BigDecimal;
 
