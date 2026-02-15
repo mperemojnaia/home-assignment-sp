@@ -29,6 +29,21 @@ The Customer Statement Processor validates transaction records by checking:
 mvn clean install
 ```
 
+### Test Coverage
+
+The project uses JaCoCo for test coverage with a minimum threshold of 70% line coverage (excluding Lombok-generated code).
+
+```bash
+# Run tests with coverage report
+mvn clean test jacoco:report
+
+# View coverage report
+open target/site/jacoco/index.html
+
+# Run full build with coverage check
+mvn clean verify jacoco:check
+```
+
 ## Running the Application
 
 ### Local Development
@@ -118,7 +133,19 @@ mvn test -Dtest=ValidationRuleEngineTest
 
 # Run with coverage
 mvn test jacoco:report
+
+# Run full verification (includes integration tests)
+mvn verify
 ```
+
+## Continuous Integration
+
+The project uses GitHub Actions for CI/CD:
+
+- **Build & Test**: Runs on every push and pull request
+- **Test Coverage**: JaCoCo reports with 80% minimum coverage
+- **Docker Build**: Automated Docker image building on main branch
+- **Test Reports**: Automatically uploaded as artifacts
 
 ## Configuration
 
